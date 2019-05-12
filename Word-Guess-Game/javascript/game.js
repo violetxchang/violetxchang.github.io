@@ -44,7 +44,7 @@ function reset() {
     computerRandIndex = Math.floor(Math.random() * coffees.length);
 
     computerPickWord = coffees[computerRandIndex];
-    numberofGuessCount = 8;
+    numberofGuessCount = 12;
     wrongGuessLetter = "";
     rightGuessLetter = "";
     boardGame = [];
