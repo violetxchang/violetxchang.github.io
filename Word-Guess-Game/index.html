@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>But First, Coffee</title>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Meddon" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Meddon|Yellowtail');
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <h1>But First,</h1>
+            <h1 id="coffee">Coffee</h1>
+        </div>
+
+        <div class="row" id="inst">
+            <strong>Instructions</strong>
+            Guess types of coffee by suggesting letters. You're allowed 12 guesses. Press any key to get started!
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8" id="content">
+                Current Word
+                <div class="col-lg-10" id="currentWord"></div>
+                <div class="row">
+                    <div class="col-lg-6" id="content">Letters Already Guessed</div>
+                    <div class="col-lg-6" id="content">Number of Guesses Remaining</div>
+                    <div class="row">
+                            <div id="wrongGuesses" class="col-lg-9"></div>
+                    <div id="guessesRemaining" class="col-lg-3"></div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="col-lg-4" id="wins">
+                <div id="title">Wins</div>
+                <div id="winCount">0</div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="javascript/game.js"></script>
+
+
+
+
+    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+
+</html>
