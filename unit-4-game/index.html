@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crystal Collector</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Tenor+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Crystal Collector</h1>
+      </div>
+    </div>
+<!--instructions-->
+      <div class="row">
+      <div class="col-sm-12" id="instructions">
+        <h2>Instructions</h2>
+        <p>You will be given a target score at the start of the game. There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the target score, you lose the game if your total score exceeds the target score.</p> 
+        <p>The value of each crystal is hidden from you until you click on it. Each time when the game starts, the value of each crystal will change.</p>
+      </div>
+    </div>
+<!--scoreboards-->
+    <div class="row">
+      <div class="col-sm-4" id="targetScore">target score
+        <div class="bigScore" id="targetScoreDiv"></div>
+      </div>
+      <div class="col-sm-4" id="yourScore">your score
+        <div class="bigScore" id="yourScoreDiv"></div>
+      </div>
+      <div class="col-sm-4" id="scoreBoard">scoreboard
+        <div class="wins">Wins: 0</div>
+        <div class="losses">Losses: 0</div>
+      </div>
+    </div>
+<!--crystal images-->
+    <div class="row">
+      <div class="col-md-3" id="one"><img src="./assets/images/roseQuartz.jpg" alt="roseQuartz"></div>
+      <div class="col-md-3" id="two"><img src="./assets/images/lapisLazuli.jpg" alt="lapizLazuli"></div>
+      <div class="col-md-3" id="three"><img src="./assets/images/amethyst.jpg" alt="amethyst"></div>
+      <div class="col-md-3" id="four"><img src="./assets/images/apatite.jpg" alt="apatite"></div>
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="../unit-4-game/assets/javascript/game.js"></script>
+
+</body>
+
+</html>
