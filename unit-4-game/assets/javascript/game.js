@@ -34,7 +34,7 @@ var getRandom = function (min, max) {
 }
 
 var startGame = function () {
-    var yourScore = 0;
+    yourScore = 0;
     targetScore = getRandom(19, 120);
     crystal.one.value = getRandom(1, 12);
     crystal.two.value = getRandom(1, 12);
