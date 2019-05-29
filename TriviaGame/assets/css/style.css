@@ -1,0 +1,33 @@
+body {
+    background-image: url("/TriviaGame/assets/images/bg.jpg");
+    background-repeat: repeat;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 19px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: black;
+}
+
+div {
+        /* border: 1px solid black; */
+        align-content: center;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .bigContainer {
+        width: 700px;
+        align-content: center;
+        margin: 20px auto;
+    }
+
+    H1 {
+        font-family: 'Monoton', cursive;
+        color: rgb(0, 62, 179);
+    }
+
+    #questionDiv {
+        margin-top: 40px;
+    }
+
+    
