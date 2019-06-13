@@ -1,0 +1,34 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat; 
+}
+
+.jumbotron {
+    margin-top: 30px;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+}
+
+h2 {
+    color: white;
+}
+
+.card-header {
+    background-color: black;
+    color: white;
+    font-weight: 210;
+    text-transform: uppercase;
+    font-size: 29px;
+    letter-spacing: 13px;
+    border: 6px solid black;
+}
+
+.card {
+    border: 1px solid black;
+}
