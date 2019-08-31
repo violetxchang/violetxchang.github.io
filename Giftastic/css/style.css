@@ -1,0 +1,67 @@
+body {
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 19px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: black;
+}
+
+div {
+    /* border: 1px solid black; */
+}
+
+h1 {
+    font-family: 'Margarine', cursive;
+    font-size: 116px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+#buttonsView {
+    padding: 10px;
+}
+
+
+#animalsView {
+    padding: 10px;
+}
+
+
+#animalInput {
+    padding: 10px;
+}
+
+button {
+    margin: 2px;
+}
+
+input {
+    border: 1px solid black;
+}
+
+#addAnimal {
+    border: none;
+    color:white;
+    background-color:palevioletred;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+#search-form {
+    border: 9px dashed palevioletred;
+    padding: 20px 20px 15px 15px;
+}
+
+#animalInput {
+    width: 200px;
+}
+
+img {
+    margin-bottom: 3px;
+}
